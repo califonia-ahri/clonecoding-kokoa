@@ -14,6 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: absolute;
 }
 .index-header__title {
   margin-bottom: 40px;
@@ -54,6 +55,10 @@ body {
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
+}
+
+#login-form input[type="text"] {
+  margin-top: 220px;
 }
 
 #login-form a {
