@@ -46,3 +46,15 @@
   left: 30px;
   bottom: 30px;
 }
+
+.screen-header__notification {
+  background-color: tomato;
+  color: white;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  display: flex;
+  position: absolute;
+  right: 18px;
+  top: 25px;
+}
